@@ -499,7 +499,7 @@ public:
 int main() {
   Utils &ut = Utils::getInstance();
   ut.initialize_register_maps();
-  freopen("input2.s", "r", stdin);
+  freopen("input.s", "r", stdin);
   freopen("output.txt", "w", stdout);
   std::vector<std::string> inputs;
   std::string line = "";
